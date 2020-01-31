@@ -1,0 +1,11 @@
+
+public class MyFirstClass {
+	public static void main(String[] args) {
+		isDivisible(43,7);
+		isDivisible(7, 7);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+	}
+	public static boolean isDivisible(int num, int divider) {
+		return num%divider == 0;
+	}
+//comment
+}

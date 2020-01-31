@@ -1,0 +1,10 @@
+package com.qa.garage;
+
+import java.util.ArrayList;
+
+public class Garage {
+	ArrayList<Vehicle> vehicles = new ArrayList<Vehicle>();
+	vehicles.add(car);
+	
+
+}

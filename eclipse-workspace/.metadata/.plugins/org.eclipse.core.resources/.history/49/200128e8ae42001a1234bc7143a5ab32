@@ -1,0 +1,6 @@
+package com.qa.garages;
+
+public interface Vehicle {
+	public void move();
+
+}

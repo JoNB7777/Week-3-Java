@@ -1,0 +1,14 @@
+package com.qa.banking;
+
+public class BankAccount {
+	private int balance = 0;
+	
+	public void addMoney(int money) {
+		this.balance = this.balance + money;
+	}
+	
+	public int getBalance() {
+		return this.balance;
+	}
+
+}

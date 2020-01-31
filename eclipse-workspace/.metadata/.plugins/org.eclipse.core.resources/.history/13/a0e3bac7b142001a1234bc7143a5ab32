@@ -1,0 +1,13 @@
+package com.qa.garage;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Car car = new Car();
+		car.move();
+		Vehicle aCar = new Car();
+		aCar.move();
+
+	}
+
+}

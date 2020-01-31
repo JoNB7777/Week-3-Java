@@ -1,0 +1,20 @@
+package com.qa.garage;
+
+public abstract class Vehicle {
+	public abstract void move();
+	public abstract void accelerate();
+	public int getTravelledDistance() {
+		return travelledDistance;
+	}
+	public void setTravelledDistance(int travelledDistance) {
+		this.travelledDistance = travelledDistance;
+	}
+	private int travelledDistance;
+	public int speed;
+	public int garageBill = 0;
+	
+	public Vehicle(int travelledDistance) {
+		this.travelledDistance = travelledDistance;
+	}
+
+}

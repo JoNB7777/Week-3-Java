@@ -1,0 +1,9 @@
+
+public class Application {
+	public static void main (String [] args) {
+		Elephant dumbo = new Elephant();
+		System.out.println(dumbo.colour);
+		System.out.println(dumbo.legs);
+	}
+
+}

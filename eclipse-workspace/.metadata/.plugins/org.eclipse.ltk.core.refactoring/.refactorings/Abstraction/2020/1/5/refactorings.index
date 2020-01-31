@@ -1,0 +1,15 @@
+1580312957498	Delete element
+1580313051397	Rename type 'Bus'
+1580313100603	Rename field 'speet'
+1580376319408	Delete element
+1580376349370	Rename type 'Runner'
+1580377604076	Encapsulate field 'travelledDistance'
+1580378728582	Encapsulate field 'passengerNumber'
+1580378762898	Encapsulate field 'colour'
+1580378781289	Encapsulate field 'value'
+1580378797257	Encapsulate field 'coachNumber'
+1580378808854	Encapsulate field 'ticketPrice'
+1580378863629	Encapsulate field 'speed'
+1580378880426	Encapsulate field 'garageBill'
+1580379745034	Encapsulate field 'colour'
+1580381086847	Rename type 'Runner2'

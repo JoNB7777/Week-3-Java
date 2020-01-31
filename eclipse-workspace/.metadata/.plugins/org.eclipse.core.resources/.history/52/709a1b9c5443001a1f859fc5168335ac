@@ -1,0 +1,13 @@
+package com.qa.factory;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Box box = new Box("cardboard");
+		Box crate = new Box("wooden");
+		System.out.println(box.getMaterial());
+		System.out.println(crate.getMaterial());
+
+	}
+
+}

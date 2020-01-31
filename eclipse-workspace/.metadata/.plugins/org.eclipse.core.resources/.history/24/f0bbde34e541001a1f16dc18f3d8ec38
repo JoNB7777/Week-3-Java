@@ -1,0 +1,15 @@
+package com.qa.circus;
+
+public class Elephant {
+	String species; 
+	String colour;
+	int legs;
+	
+	public void haveMudBath() {
+		colour = "Brown";
+	}
+	
+	public void getPainted(String paint) {
+		colour = paint;
+	}
+}

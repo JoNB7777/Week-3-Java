@@ -1,0 +1,5 @@
+package com.qa.garages;
+
+public interface Vehicle {
+
+}

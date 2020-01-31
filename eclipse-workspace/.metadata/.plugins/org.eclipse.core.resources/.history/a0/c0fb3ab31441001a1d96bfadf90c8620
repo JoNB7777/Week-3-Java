@@ -1,0 +1,19 @@
+
+public class MyFirstClass {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 3;
+		
+		if (isDivisible(a,b)) {
+			System.out.println("is divisible");
+		} else {
+			System.out.println("is not divisible");
+		}
+	}
+
+	public static boolean isDivisible(int num, int divider) {
+		return (num % divider == 0);
+		}
+		
+	
+}

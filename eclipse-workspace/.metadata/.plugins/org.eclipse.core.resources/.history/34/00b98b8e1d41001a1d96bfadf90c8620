@@ -1,0 +1,26 @@
+
+public class SwitchExperimenting {
+	public static void main(String[] args) {
+		int var = 2;
+		switch (var) {
+		
+		case 1:
+			System.out.println("var = 1");
+			break;
+		case 2:
+			System.out.println("var = 2");
+			break;
+		case 3:
+			System.out.println("var = 3");
+			break;
+		case 4:
+			System.out.println("var = 4");
+			break;
+		default:
+			System.out.println("var is not in {1,2,3,4}");
+			break;
+		}
+		
+	}
+
+}

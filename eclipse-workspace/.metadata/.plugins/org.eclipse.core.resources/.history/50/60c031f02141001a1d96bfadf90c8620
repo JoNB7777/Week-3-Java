@@ -1,0 +1,15 @@
+
+public class Scope {
+	public static void main(String[] args) {
+		int catCount = 0;
+		
+		while (catCount < 273) {
+			System.out.println("Another cat");
+			catCount ++;
+		}
+		
+		System.out.println("Too many cats!!! What do I do!?");
+	}
+	
+
+}

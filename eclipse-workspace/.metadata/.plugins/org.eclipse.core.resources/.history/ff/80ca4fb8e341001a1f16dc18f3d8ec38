@@ -1,0 +1,18 @@
+package com.qa.circus;
+
+public class Application {
+	public static void main (String [] args) {
+		Elephant dumbo = new Elephant();
+		dumbo.species = "asian";
+		dumbo.colour = "grey";
+		dumbo.legs = 4;
+		Elephant nellie = new Elephant();
+		nellie.legs = 4;
+		System.out.println(dumbo.legs);
+		System.out.println(nellie.legs);
+		System.out.println(dumbo.colour);
+		dumbo.haveMudBath();
+		System.out.println(dumbo.colour);
+	}
+
+}

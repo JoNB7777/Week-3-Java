@@ -1,0 +1,29 @@
+package com.qa.garage;
+
+public class Train extends Vehicle {
+	public int coachNumber = 4;
+	public int ticketPrice = 15;
+	
+	@Override
+	public void move () {
+		this.travelledDistance += 20;
+		
+	}
+	
+	@Override
+	public void accelerate() {
+		if (this.speed <= 330) {
+			this.speed += 30;
+		}
+	}
+	
+	
+	public void addAdditionalCoach() {
+		this.coachNumber += 1;
+	}
+	
+	public void increaseTicketPrice() {
+		this.ticketPrice += 5;
+	}
+
+}

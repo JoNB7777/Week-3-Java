@@ -1,0 +1,5 @@
+
+public class Elephant {
+	String species = "asian"; String colour = "grey";
+	int legs = 3;
+}

@@ -1,0 +1,11 @@
+
+public class MyFirstClass {
+	public static void main(String[] args) {
+		isDivisibleByFour(42);
+		isDivisibleByFour(7);
+	}
+	public static void isDivisibleByFour(int num) {
+		System.out.println(num%4 == 0);
+	}
+//comment
+}

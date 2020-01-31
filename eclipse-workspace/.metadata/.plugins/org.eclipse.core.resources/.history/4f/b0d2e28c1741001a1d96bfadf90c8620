@@ -1,0 +1,12 @@
+
+public class Scopey {
+	static int number = 5;
+	public static void main(String[] args) {
+		System.out.println(number);
+		printy();
+	}
+	public static void printy() {
+		System.out.println(number);
+	}
+
+}

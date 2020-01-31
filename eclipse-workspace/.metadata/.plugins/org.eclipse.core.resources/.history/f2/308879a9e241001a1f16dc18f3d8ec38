@@ -1,0 +1,14 @@
+package com.qa.circus;
+
+public class Application {
+	public static void main (String [] args) {
+		Elephant dumbo = new Elephant();
+		System.out.println(dumbo.colour);
+		System.out.println(dumbo.legs);
+		Elephant nellie = new Elephant();
+		nellie.legs = 4;
+		System.out.println(dumbo.legs);
+		System.out.println(nellie.legs);
+	}
+
+}

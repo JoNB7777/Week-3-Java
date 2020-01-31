@@ -1,0 +1,9 @@
+package com.qa.garage;
+
+public class Car extends Vehicle {
+	@Override
+	public void move() {
+		this.speed += 5;
+	}
+
+}

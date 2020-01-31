@@ -1,0 +1,15 @@
+package com.qa.calculator;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class CalculatorTest {
+	
+	@Test
+	public void multiplyTest() {
+		Calculator calculator = new Calculator();
+		assertEquals(4, calculator.multiply(2,  2));
+	}
+
+}

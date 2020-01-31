@@ -1,0 +1,33 @@
+package com.qa.garage;
+
+public class Car extends Vehicle {
+	public String colour;
+	public int value = 25000;
+	
+	public Car(int travelledDistance, String colour) {
+		super(travelledDistance);
+		this.colour = colour;
+	}
+	@Override
+	public void move() {
+		this.setTravelledDistance(this.getTravelledDistance() + 10);
+	}
+	
+	@Override
+	public void accelerate() {
+		if (this.speed <= 200) {
+			this.speed += 10;
+		}
+	}
+	
+	public void paintCar(String colour) {
+		this.colour = colour;
+		this.value = 20000;
+	}
+	
+	public void crash() {
+		this.value = 0;
+		System.out.println("Car crashed and is beyond repair");
+	}
+
+}

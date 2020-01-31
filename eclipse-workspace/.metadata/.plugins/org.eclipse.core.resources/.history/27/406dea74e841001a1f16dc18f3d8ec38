@@ -1,0 +1,9 @@
+package com.qa.circus;
+
+public class Application {
+	public static void main (String [] args) {
+		Elephant dumbo = new Elephant("african", "grey", 2);
+		Elephant nellie = new Elephant("asian", "grey", 4);
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class Scope {
+	public static void main(String[] args) {
+		String [] row5 = {"Nisha", "Laurence", "Ashima"};
+		String [] row6 = {"Doug", "Josh", "Sam", "Jeevan"};
+		String [] row7 = {"Mumba", "Prem"};
+		String [][] room = {row5, row6, row7};
+		System.out.println(room[1][1] + " " + room[0][2] + " " + room[2][0] + "!");
+		room[0][1] = "Jess";
+		System.out.println(room[0][1]);
+	}
+	
+
+}

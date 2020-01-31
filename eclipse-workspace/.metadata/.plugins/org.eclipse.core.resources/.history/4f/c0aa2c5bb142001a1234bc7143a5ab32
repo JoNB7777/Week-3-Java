@@ -1,0 +1,10 @@
+package com.qa.garage;
+
+public class Train extends Vehicle {
+	@Override
+	public void move () {
+		this.travelledDistance += 20;
+		
+	}
+
+}

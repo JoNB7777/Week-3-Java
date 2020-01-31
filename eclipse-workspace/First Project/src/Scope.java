@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+public class Scope {
+	public static void main(String[] args) {
+	 ArrayList<Integer> nums = new ArrayList<Integer>();
+	 nums.add(8);
+	 nums.add(2);
+	 nums.add(15);
+	 int c = 0;
+	 for (;c <+10;c++) {
+		 nums.add(3*c-5);
+	 }
+	 
+//	 for (int i = 0; i < nums.size(); i++) {
+//		 System.out.println(nums.get(i));
+//	 }
+	 
+	 for (Integer num:nums) {
+		 System.out.println(num);
+	 }
+	 }
+	
+
+}

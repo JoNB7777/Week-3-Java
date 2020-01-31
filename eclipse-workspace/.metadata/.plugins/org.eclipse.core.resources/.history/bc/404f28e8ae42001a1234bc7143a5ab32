@@ -1,0 +1,8 @@
+package com.qa.garages;
+
+public class Car implements Vehicle {
+	public void move() {
+		System.out.println("Brumm");
+	}
+
+}

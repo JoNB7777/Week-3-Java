@@ -1,0 +1,23 @@
+
+public class Scope {
+	public static void main(String[] args) {
+		int catCount = 0;
+		
+//		while (true) {
+//			System.out.println("Another cat");
+//			catCount ++;
+//		}
+		
+//		System.out.println("Too many cats!!! What do I do!?");
+		
+		int snakes = 0;
+		for (; snakes < 273;) {
+			System.out.println("Get another snake");
+			snakes ++;
+		}
+		
+		System.out.println("Too many snakes!!!!");
+	}
+	
+
+}

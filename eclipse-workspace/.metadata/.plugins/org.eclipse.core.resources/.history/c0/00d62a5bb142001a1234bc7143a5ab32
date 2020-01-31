@@ -1,0 +1,9 @@
+package com.qa.garage;
+
+public class Ship extends Vehicle {
+	@Override
+	public void move() {
+		this.travelledDistance += 5;
+	}
+
+}

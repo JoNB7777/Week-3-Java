@@ -1,0 +1,13 @@
+
+public class Scope {
+	public static void main(String[] args) {
+		String name = "James";
+		String[] row2 = {name, "Tyler", "Juamal"};
+		System.out.println(row2[1]);
+		row2[1] = "Taiwo";
+		System.out.println(row2);
+		System.out.println(row2[3]);
+	}
+	
+
+}

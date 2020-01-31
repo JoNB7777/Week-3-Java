@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class Scope {
+	public static void main(String[] args) {
+	 ArrayList<String> row5 = new ArrayList<String>();
+	 row5.add("L");
+	 System.out.println(row5.size());
+	 row5.add("N");
+	 System.out.println(row5.size());
+	 row5.add("J");
+	 System.out.println(row5.size());
+	 row5.remove(2);
+	 row5.remove("N");
+	 System.out.println(row5);
+	 }
+	
+
+}

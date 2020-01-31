@@ -1,0 +1,10 @@
+package com.qa.banking;
+
+public class BankAccount {
+	int balance = 0;
+	
+	public void addMoney(int money) {
+		this.balance = this.balance + money;
+	}
+
+}

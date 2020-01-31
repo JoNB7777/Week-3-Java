@@ -1,0 +1,23 @@
+package com.qa.garage;
+
+public class Ship extends Vehicle {
+	public int passengerNumber = 0;
+	public String shipName;
+	
+	@Override
+	public void move() {
+		this.travelledDistance += 5;
+	}
+	
+	@Override
+	public void accelerate() {
+		if (this.speed <= 50) {
+			this.speed += 2;
+		}
+	}
+	
+	public void letPassengerOnShip() {
+		this.passengerNumber += 1;
+	}
+
+}
